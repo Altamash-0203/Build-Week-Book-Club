@@ -1,12 +1,61 @@
-# React + Vite
+# 📚 BookDonalds
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧩 Introduction
 
-Currently, two official plugins are available:
+**BookDonalds** is a frontend-only book club platform that allows users to discover top-rated books and join or create book discussion clubs. It encourages reading through community engagement, voting, and interactive club chats. The platform uses the Google Books API for book data and Firebase Firestore as the database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🗂️ Project Type
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend
+
+---
+
+## 🌐 Deployed App
+
+- **Frontend**: [https://book-donalds.netlify.app](https://book-donalds.netlify.app)
+- **Database**: Firebase Firestore
+
+---
+
+## 🎥 Video Walkthroughs
+
+- **🧑‍💻 Codebase Overview**: [Click here to view codebase walkthrough](https://drive.google.com/drive/folders/1MAAO0Be6GNVdIpzENML88Erjp-ZqQA-v?usp=drive_link)
+
+---
+
+## 🚀 Features
+
+- 🔍 Browse top-rated books (Google Books API)
+- 📚 View all clubs
+- ✍️ Create a new book club
+- 💬 Join club chat rooms
+- ⚡ Live updates with Firebase Firestore
+- 📱 Responsive design with Tailwind CSS
+
+---
+
+## 💡 Design Decisions & Assumptions
+
+- **No backend**: Firebase Firestore is used for realtime database functionality.
+- **Book data**: Pulled directly from Google Books API based on "top rated books" query.
+- **Authentication**: Currently open (no login); future versions can integrate Firebase Auth.
+
+---
+
+## 🛠️ Installation & Getting Started
+
+Make sure you have Node.js and npm installed.
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/book-donalds.git
+cd book-donalds
+
+# Install dependencies
+npm install
+
+# Start the local development server
+npm run dev
+
